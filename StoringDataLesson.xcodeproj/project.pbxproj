@@ -13,6 +13,7 @@
 		2CAB55E82840032B000B07C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB55E62840032B000B07C7 /* Main.storyboard */; };
 		2CAB55EA2840032E000B07C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB55E92840032E000B07C7 /* Assets.xcassets */; };
 		2CAB55ED2840032E000B07C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB55EB2840032E000B07C7 /* LaunchScreen.storyboard */; };
+		2CAB55F52840073D000B07C7 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB55F42840073D000B07C7 /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2CAB55E92840032E000B07C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CAB55EC2840032E000B07C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CAB55EE2840032E000B07C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAB55F42840073D000B07C7 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				2CAB55E02840032B000B07C7 /* AppDelegate.swift */,
 				2CAB55E22840032B000B07C7 /* SceneDelegate.swift */,
+				2CAB55F42840073D000B07C7 /* UserSettings.swift */,
 				2CAB55E42840032B000B07C7 /* ViewController.swift */,
 				2CAB55E62840032B000B07C7 /* Main.storyboard */,
 				2CAB55E92840032E000B07C7 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CAB55E52840032B000B07C7 /* ViewController.swift in Sources */,
+				2CAB55F52840073D000B07C7 /* UserSettings.swift in Sources */,
 				2CAB55E12840032B000B07C7 /* AppDelegate.swift in Sources */,
 				2CAB55E32840032B000B07C7 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQ59V79358;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StoringDataLesson/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQ59V79358;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StoringDataLesson/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
